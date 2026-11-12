@@ -1,0 +1,255 @@
+【名词卡】
+P013　分类　fēn lèi　把东西放进对的箱子。　Classification
+P019　机器学习　jī qì xué xí　不教规则，让它从例子里找。　Machine Learning
+P020　像素　xiàng sù　一张图切成的小方格，每格是数。　Pixel
+P022　特征　tè zhēng　用来区分东西的那几个量。　Feature
+P024　神经网络　shén jīng wǎng luò　让机器一层一层往上拼的办法。　Neural Network
+P035　图灵测试　tú líng cè shì　隔着墙聊天，看你分不分得出。　Turing Test
+P036　信息熵　xìn xī shāng　平均下来，一条消息有多意外。　Entropy
+P037　比特　bǐ tè　一个「是或否」的信息量。　Bit
+P039　权重　quán zhòng　每条消息说话的分量。　Weight
+P044　反向传播　fǎn xiàng chuán bō　把错误倒着传回去，各改各的。　Backpropagation
+P050　算力　suàn lì　一秒钟能做多少次计算。　Computing Power
+P058　聪明汉斯效应　cōng míng hàn sī xiào yìng　答对了，靠的却不是你以为的本事。　Clever Hans Effect
+P059　捷径学习　jié jìng xué xí　答对了题，靠的却是不相干的线索。　Shortcut Learning
+P062　过拟合　guò nǐ hé　练过的全对，没练过的就错。　Overfitting
+P064　测试集　cè shì jí　专门留着考它、不许它先看的例子。　Test Set
+P065　数据偏见　shù jù piān jiàn　例子偏向一边，学出来的也偏。　Data Bias
+P067　对抗样本　duì kàng yàng běn　专门设计出来骗AI的小改动。　Adversarial Example
+P075　语言模型　yǔ yán mó xíng　一台猜「下一个字是什么」的机器。　Language Model
+P077　词元　cí yuán　一句话被剪成的小块，是它的最小单位。　Token
+P078　词向量　cí xiàng liàng　一个词在「意思地图」上的地址。　Word Vector
+P080　注意力　zhù yì lì　读一个字时，回头看哪些字最要紧。　Attention
+P081　大语言模型　dà yǔ yán mó xíng　读过海量文字、有海量权重的语言模型。　Large Language Model
+P084　幻觉　huàn jué　AI说得头头是道，内容却是编的。　Hallucination
+P088　伊莉莎效应　yī lì shā xiào yìng　人忍不住觉得会接话的机器懂自己。　ELIZA Effect
+P089　拟人化　nǐ rén huà　把不是人的东西当成人来看。　Anthropomorphism
+P090　温度　wēn dù　控制它有多随机的旋钮，越高越敢乱说。　Temperature
+P091　提示词　tí shì cí　你交给AI的那段话，是它的上文。　Prompt
+P092　上下文窗口　shàng xià wén chuāng kǒu　它一次能看到的字数上限，按词元算。　Context Window
+P098　生成式AI　shēng chéng shì AI　能造出新的字、图、声音的AI。　Generative AI
+P099　扩散模型　kuò sàn mó xíng　从雪花点开始，一步步擦出图来。　Diffusion Model
+P111　深度伪造　shēn dù wěi zào　用AI合成的假脸、假声音、假视频。　Deepfake
+P118　推荐算法　tuī jiàn suàn fǎ　根据你和别人的行为，猜你爱看什么。　Recommender System
+P120　信息茧房　xìn xī jiǎn fáng　只看到自己爱看的，世界越来越窄。　Filter Bubble
+P125　数字足迹　shù zì zú jì　你在网上留下的全部痕迹。　Digital Footprint
+P126　数据中心　shù jù zhōng xīn　装满芯片的大房子，AI住在这里。　Data Center
+
+【课本连接】
+P021　信息科技 · 数据与编码　图片、声音、文字进了电脑都变成数。一个0或1叫一个比特，八个是一个字节。
+P023　数学 · 一次函数　y＝kx＋b的图像是一条直线。机器要学的，就是k和b这两个数。
+P038　数学 · 乘方　7个2相乘，叫2的7次方，等于128。每多问一次，能分辨的数翻一倍。
+P040　生物 · 神经元　神经元接收许多信号，攒够了才往下传。机器里的零件，学的就是它。
+P045　数学 · 二次函数　二次函数的图像是抛物线。开口向上时，最低的那一点就是谷底。
+P063　物理 · 弹力　在弹性限度内，弹簧的伸长跟拉力成正比。弯线把误差也当了真。
+P066　数学 · 抽样调查　用一部分代表全体，这一部分叫样本。样本要有代表性，结论才靠得住。
+P076　数学 · 概率　试验次数很多时，可以用频率来估计概率。它数过的句子，多到人几辈子读不完。
+P079　数学 · 勾股定理　直角三角形两条直角边的平方和，等于斜边的平方。地图有几千维，算法一样。
+P100　物理 · 长度的测量　多次测量取平均值，可以减小误差。五张带雪花点的照片叠起来，也会变清楚。
+P110　物理 · 光的直线传播　光在同种均匀介质中沿直线传播，所以才有影子。影子朝向乱了，照片就可疑。
+P119　数学 · 绝对值　数轴上两个点的距离，等于两个数的差的绝对值。差多少，不分谁大谁小。
+P127　物理 · 电功率　用掉的电能＝功率×时间。1千瓦的电器用1小时，正好是1度电。
+P140　数学 · 科学记数法　把一个大数写成a×10的n次方，a在1和10之间。数零的个数，交给指数。
+
+【成语里的AI】
+P025　盲人摸象　摸到腿说是柱子，摸到耳朵说是扇子。只看局部，谁都会错。
+P046　亡羊补牢　羊丢了再修羊圈，不算晚。错一次，改一点，机器就是这么学的。
+P068　买椟还珠　买了装珍珠的漂亮盒子，却把珍珠还了回去。拿到了分数，丢了比赛。
+P085　三人成虎　街上没有老虎，三个人都说有，听的人就信了。说得像真的，不等于是真的。
+P124　忠言逆耳　真正有用的话，听着往往不舒服。只会说「你真棒」的，不一定是在帮你。
+P135　青出于蓝　靛青从蓼蓝里来，却比蓼蓝更青。它是跟人学的，有的地方已经超过了人。
+
+【资料来源页脚】
+P014　资料来源：1893年最高法院判例
+P018　资料来源：1989年手写邮编识别论文
+P019　资料来源：公开手写数字数据集，1998年
+P027　资料来源：机器学习可解释性研究，2016年
+P030　资料来源：1958年7月新闻报道
+P032　资料来源：图灵传记；1936年论文
+P035　资料来源：图灵1950年论文
+P037　资料来源：香农1948年论文及传记
+P044　资料来源：1986年反向传播论文
+P047　资料来源：2018年图灵奖、2024年诺贝尔奖公告
+P049　资料来源：图片库创建者公开演讲，2015年
+P050　资料来源：图像识别竞赛公开成绩
+P054　资料来源：1907年调查报告
+P058　资料来源：1907年调查报告
+P059　资料来源：医学影像AI研究，2018年
+P065　资料来源：2018年10月新闻报道
+P067　资料来源：路牌识别安全研究，2018年
+P068　资料来源：强化学习公开实验，2016年
+P072　资料来源：2023年6月法院裁定
+P078　资料来源：词向量研究，2013年
+P080　资料来源：注意力机制论文，2017年
+P087　资料来源：「中文房间」思想实验，1980年
+P088　资料来源：1966年论文及发明者1976年著作
+P099　资料来源：扩散模型论文，2020年
+P112　资料来源：摄影史与艺术史通行记载
+P124　资料来源：语言模型讨好倾向研究，2023年
+P132　资料来源：2016年3月人机围棋赛公开棋谱
+P134　资料来源：1997年人机国际象棋赛记录
+P135　资料来源：2016年3月人机围棋赛公开棋谱
+
+【id → 页码】
+cover = P000
+back = P000
+title = P001
+museum_l = P002
+museum_r = P003
+why = P004
+cast = P005
+toc_l = P006
+toc_r = P007
+howto = P008
+pretest = P009
+c1_open = P010
+c1_pre = P011
+room = P012
+same = P013
+tomato = P014
+rules = P015
+tusuoji_l = P016
+tusuoji_r = P017
+post = P018
+learn = P019
+pixel = P020
+h_pixel = P021
+feature = P022
+h_line = P023
+layers = P024
+elephant = P025
+husky_l = P026
+husky_r = P027
+c1_end = P028
+c1_br = P029
+c2_open = P030
+c2_pre = P031
+meadow = P032
+tape = P033
+turing = P034
+imitation = P035
+surprise = P036
+shannon = P037
+h_guess = P038
+neuron = P039
+h_neuron = P040
+winter = P041
+oil_l = P042
+oil_r = P043
+backprop = P044
+h_descent = P045
+bike = P046
+hinton = P047
+data = P048
+feifei = P049
+gpu = P050
+timeline = P051
+c2_end = P052
+c2_br = P053
+c3_open = P054
+c3_pre = P055
+hans_l = P056
+hans_r = P057
+pfungst = P058
+shortcut = P059
+zhu_l = P060
+zhu_r = P061
+overfit = P062
+h_overfit = P063
+exam = P064
+bias = P065
+h_sample = P066
+sticker = P067
+boatgame = P068
+hansgame = P069
+c3_end = P070
+c3_br = P071
+c4_open = P072
+c4_pre = P073
+parlor = P074
+nextword = P075
+h_prob = P076
+token = P077
+vector = P078
+h_vec = P079
+attention = P080
+feed = P081
+zhi_l = P082
+zhi_r = P083
+halluc = P084
+cite = P085
+room_l = P086
+room_r = P087
+eliza = P088
+noface = P089
+temp = P090
+prompt = P091
+context = P092
+check = P093
+c4_end = P094
+c4_br = P095
+c5_open = P096
+c5_pre = P097
+noise = P098
+sculpt = P099
+h_avg = P100
+denoise = P101
+six_l = P102
+six_r = P103
+count = P104
+text = P105
+she_l = P106
+she_r = P107
+style = P108
+spot = P109
+h_light = P110
+deepfake = P111
+camera = P112
+yours = P113
+c5_end = P114
+c5_br = P115
+c6_open = P116
+c6_pre = P117
+rec = P118
+h_table = P119
+cocoon = P120
+clock = P121
+zou_l = P122
+zou_r = P123
+flatter = P124
+privacy = P125
+chip = P126
+h_watt = P127
+homework = P128
+rule = P129
+c6_end = P130
+c6_br = P131
+c7_open = P132
+c7_pre = P133
+chess = P134
+move37 = P135
+tian_l = P136
+tian_r = P137
+strengths = P138
+ask = P139
+h_sci = P140
+job = P141
+unknown = P142
+posttest = P143
+c7_end = P144
+c7_br = P145
+tree_l = P146
+tree_r = P147
+letter = P148
+gloss1 = P149
+gloss2 = P150
+links = P151
+idioms = P152
+sources1 = P153
+sources2 = P154
+answers1 = P155
+answers2 = P156
+lab1 = P157
+lab2 = P158
+colophon = P159
+last = P160
